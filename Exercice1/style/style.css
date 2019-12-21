@@ -1,0 +1,33 @@
+/*style.css*/
+/* Programmé par Laurent Drolet*/
+/*Le 21 novembre 2019*/
+@font-face{
+    font-family: 'MonFont';
+
+    src: url("Marioline Barnard.ttf");
+}
+
+p {
+     text-align: left;
+ }
+
+body {
+    /*background : url("../media/pomme.jpg") no-repeat center;*/
+    width : 100%;
+    margin : auto;
+}
+a {
+    font-family: MonFont;
+    text-decoration-line: none;
+}
+a{
+    text-decoration-line: underline;
+}
+.liensRouge:hover {
+    color: red;
+}
+#lienJaune {
+    color : yellow;
+}
+
+
